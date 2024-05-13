@@ -36,6 +36,7 @@
 .vis-labelset .vis-label .vis-inner {
   display: inline-block;
   padding: 5px;
+  white-space: nowrap;
 }
 
 .vis-labelset .vis-label .vis-inner.vis-hidden {
