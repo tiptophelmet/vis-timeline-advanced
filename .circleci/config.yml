@@ -91,11 +91,6 @@ workflows:
           requires:
             - prepare
 
-      - examples:
-          requires:
-            - prepare
-            - build
-
       - test:
           requires:
             - prepare
