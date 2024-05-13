@@ -111,6 +111,7 @@ export interface SubGroupVisibilityOptions {
 export interface DataGroup {
   className?: string;
   content: string | HTMLElement;
+  rightContent: string | HTMLElement;
   id: IdType;
   options?: DataGroupOptions;
   style?: string;
