@@ -87,7 +87,6 @@ workflows:
             - prepare
             - build
             # - lint
-            - test
           filters:
             branches:
               only:
