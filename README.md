@@ -130,7 +130,7 @@ transpilers to add necessary polyfills etc.
 ```
 
 ```javascript
-import { Timeline } from "vis-timeline";
+import { Timeline } from "vis-timeline-advanced";
 ```
 
 This is solely kept for backwards compatibility. It is deprecated and will be
