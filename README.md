@@ -4,6 +4,12 @@ This repo is built on top of https://github.com/visjs/vis-timeline.
 
 ### Features:
 - Dual-side groups labels
+- `itemadded` event: emitted once item DOM is ready
+```js
+timeline.on('itemadded', function (properties) {
+  alert('added item with id: ' + properties.item);
+});
+```
 - All the features from https://github.com/visjs/vis-timeline
 
 ![example chart](docs/img/timeline.png)
