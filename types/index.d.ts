@@ -54,6 +54,7 @@ export type TimelineEvents =
   'mouseUp' |
   'mouseMove' |
   'groupDragged' |
+  'groupadded' |
   'changed' |
   'rangechange' |
   'rangechanged' |
