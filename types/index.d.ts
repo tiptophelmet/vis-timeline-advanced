@@ -60,6 +60,7 @@ export type TimelineEvents =
   'select' |
   'itemover' |
   'itemout' |
+  'itemadded' |
   'timechange' |
   'timechanged';
 export type Graph2dStyleType = 'line' | 'bar' | 'points';
